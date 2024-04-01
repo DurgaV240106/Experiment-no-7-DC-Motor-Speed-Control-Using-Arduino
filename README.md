@@ -69,8 +69,7 @@ void loop()
 
 ![Screenshot 2024-04-01 195908](https://github.com/DurgaV240106/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/144870878/8466feda-b774-41c4-80c7-fdccac1c54cf)
 
-![Screenshot 2024-04-01 195921](https://github.com/DurgaV240106/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/144870878/097f2199-11f2-474a-a843-ad7a175b74e6)
-
+![Screenshot 2024-04-01 195921](https://github.com/DurgaV240106/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/144870878/eca06b15-9fd1-4ba2-9032-b9272e734c6c)
 
 
 
