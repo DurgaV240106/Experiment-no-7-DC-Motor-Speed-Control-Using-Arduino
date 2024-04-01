@@ -1,10 +1,10 @@
-![image](https://github.com/vasanthkumarch/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/36288975/739cc470-48c8-4873-a730-6319b4afc602)
-###  DATE: 
+## Experiment-no-6-DC-Motor-Speed-Control-Using-Arduino
+###  DATE: 21.03.2024
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT:
-# Experiment-no-6-DC-Motor-Speed-Control-Using-Arduino
+###  NAME: DURGA V
+###  ROLL NO :212223230052
+###  DEPARTMENT:AI&DS
+
 ### AIM : To control the speed and the direction of a DC motor using L293D driver ic( H- bridge)
 
 ### Components Required:
@@ -33,17 +33,48 @@ As shown in the circuit diagram we need only 3 Arduino terminal pins, pin 8 is f
 
 ### PROGRAM 
 
+```
+int enable=6;
+int input1=3;
+int input2=4;
+void setup()
+{
+  pinMode(enable, OUTPUT);
+  pinMode(input1, OUTPUT);
+  pinMode(input2, OUTPUT);
+}
+
+void loop()
+{
+  analogWrite(enable, 30);
+  delay(9000); 
+  digitalWrite(input1, HIGH);
+  digitalWrite(input2, LOW);
+  delay(7000);
+  digitalWrite(input1, LOW);
+  digitalWrite(input2, HIGH);
+  delay(7000);
+}
+```
+
 ### OUTPUT
+
+![Screenshot 2024-04-01 195522](https://github.com/DurgaV240106/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/144870878/8fb6f125-cadd-4ff8-9f21-dbc50c3cfe74)
+
+![Screenshot 2024-04-01 195617](https://github.com/DurgaV240106/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/144870878/58a968a1-ff3c-4ca5-aa45-a73f78416670)
+
+
 
 ### GRAPH AND TABULATION 
 
+![Screenshot 2024-04-01 195908](https://github.com/DurgaV240106/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/144870878/8466feda-b774-41c4-80c7-fdccac1c54cf)
 
-![image](https://github.com/vasanthkumarch/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/36288975/07e9b28e-9a5b-47bd-a023-3c27fe00fb2b)
+![Screenshot 2024-04-01 195921](https://github.com/DurgaV240106/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/144870878/097f2199-11f2-474a-a843-ad7a175b74e6)
 
 
-![image](https://github.com/vasanthkumarch/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/36288975/67ed339f-8011-4acc-b793-e5d4930639c7)
 
 
 
 ### RESULTS AND DISCUSSION 
 
+![Screenshot 2024-04-01 195921](https://github.com/DurgaV240106/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/144870878/41a2d81a-f0e2-472b-b2fa-7802fb5df1cf)
